@@ -1,0 +1,17 @@
+Recipe
+    ID
+    Name
+    Desc
+    Star
+    Time
+    Calo
+    Ingres
+    Steps
+User
+    ID
+    Name
+    Gender
+    Email
+    Location
+    Dietary
+    Favorites
