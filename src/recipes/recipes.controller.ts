@@ -15,7 +15,7 @@ export class RecipesController {
 
   @Post(':id')
   async update(
-    @Param() id: string,
+    @Param('id') id: string,
     @Body() updateRecipeDto: UpdateRecipeDto,
   ): Promise<void> {
     await this._recipesService.update(id, updateRecipeDto);
